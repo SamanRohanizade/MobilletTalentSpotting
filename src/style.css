@@ -69,3 +69,10 @@
   margin-top: -100vh;
   color: transparent;
 }
+
+.footer {
+  height: 556px;
+}
+.page-wrapper {
+  margin-bottom: 556px;
+}
