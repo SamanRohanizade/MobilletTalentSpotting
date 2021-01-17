@@ -12,5 +12,9 @@ module.exports = {
       },
       white: "#fff",
     },
+    fontFamily: {
+      english: ["Helvetica Neue Regular", "sans-serif"],
+      persian: ["IRANSans", "sans-serif"],
+    },
   },
 };
