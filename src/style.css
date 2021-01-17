@@ -2,6 +2,14 @@
 
 @tailwind components;
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 @font-face {
   font-family: "Helvetica Neue Regular";
   src: url("./assets/fonts/HelveticaNeueRegular.woff2") format("woff2"),
@@ -41,4 +49,23 @@
   .rtl {
     direction: rtl;
   }
+  .fill-white {
+    fill: white;
+  }
+  .fade-in {
+    animation: fadeIn 0.7s forwards;
+  }
+}
+
+.slide-up {
+  /* 
+  animating the height & margin properties forces the browser to do layout operations
+  & is a considered a bad practice. but this is just an experimentation. so, whatever :)
+  */
+  transition-property: height, margin-top;
+  transition-duration: 2.8s;
+  transition-timing-function: linear;
+  height: 0vh;
+  margin-top: -100vh;
+  color: transparent;
 }
