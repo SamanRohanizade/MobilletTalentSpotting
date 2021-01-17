@@ -13,4 +13,7 @@
     font-size: 7vw;
     line-height: 1;
   }
+  .max-h-2screen {
+    max-height: 200vh;
+  }
 }
