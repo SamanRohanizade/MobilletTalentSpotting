@@ -16,4 +16,7 @@
   .max-h-2screen {
     max-height: 200vh;
   }
+  .rtl {
+    direction: rtl;
+  }
 }
