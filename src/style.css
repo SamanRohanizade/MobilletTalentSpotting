@@ -3,3 +3,14 @@
 @tailwind components;
 
 @tailwind utilities;
+
+@layer utilities {
+  .text-bind-to-screen {
+    font-size: 11.8vw;
+    line-height: 1;
+  }
+  .text-bind-to-screen-sm {
+    font-size: 7vw;
+    line-height: 1;
+  }
+}
