@@ -18,7 +18,7 @@ function revealContent() {
   const revealedPath = Snap.select("#un-revealed");
   const revealedPathPoints = revealedPath.node.getAttribute("d");
   const reveal = () => {
-    unRevealedPath.animate({ d: revealedPathPoints }, 5300, mina.backout);
+    unRevealedPath.animate({ d: revealedPathPoints }, 4300, mina.backout);
   };
   reveal();
 
