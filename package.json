@@ -7,6 +7,9 @@
     "build": "yarn parcel build src/index.html"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-nightly.537"
+    "autoprefixer": "^10.2.1",
+    "parcel": "^2.0.0-nightly.537",
+    "postcss": "^8.1.0",
+    "tailwindcss": "^2.0.2"
   }
 }
