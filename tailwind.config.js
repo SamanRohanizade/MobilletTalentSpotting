@@ -6,9 +6,9 @@ module.exports = {
         light: "#050505",
         DEFAULT: "#000",
       },
-      indingo: {
-        light: "#007AE1",
-        dark: "#433FD9",
+      blue: {
+        light: "#067DE5",
+        dark: "#046BC5",
       },
       white: "#fff",
     },
