@@ -1,0 +1,12 @@
+{
+  "name": "talentspotting",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn parcel src/index.html",
+    "build": "yarn parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.537"
+  }
+}
