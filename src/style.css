@@ -11,30 +11,33 @@
   }
 }
 @font-face {
-  font-family: "Helvetica Neue Regular";
-  src: url("./assets/fonts/HelveticaNeueRegular.woff2") format("woff2"),
-    url("./assets/fonts/HelveticaNeueRegular.woff") format("woff");
+  font-family: 'Helvetica Neue Regular';
+  src: url('./assets/fonts/HelveticaNeueRegular.woff2') format('woff2'),
+    url('./assets/fonts/HelveticaNeueRegular.woff') format('woff');
 }
 
 @font-face {
   font-family: IRANSans;
   font-style: normal;
   font-weight: bold;
-  src: url("./assets/fonts/IRANSansWeb_Bold.woff2") format("woff2"),
-    url("./assets/fonts/IRANSansWeb_Bold.woff") format("woff");
+  src: url('./assets/fonts/IRANSansWeb_Bold.woff2') format('woff2'),
+    url('./assets/fonts/IRANSansWeb_Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: IRANSans;
   font-style: normal;
   font-weight: normal;
-  src: url("./assets/fonts/IRANSansWeb.woff2") format("woff2"),
-    url("./assets/fonts/IRANSansWeb.woff") format("woff");
+  src: url('./assets/fonts/IRANSansWeb.woff2') format('woff2'),
+    url('./assets/fonts/IRANSansWeb.woff') format('woff');
 }
 
 @tailwind utilities;
 
 @layer utilities {
+  .container-spacing {
+    @apply container mx-auto px-5 md:px-10 xl:px-32;
+  }
   .text-bind-to-screen {
     font-size: 11.8vw;
     line-height: 1;
